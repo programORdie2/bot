@@ -6,7 +6,7 @@ from py_expression_eval import Parser
 
 parser = Parser()
 
-TOKEN = os.getenv('TOKEN_cb')
+TOKEN = os.getenv('TOKEN')
 
 intents = discord.Intents.default()
 intents.message_content = True
