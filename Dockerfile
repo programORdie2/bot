@@ -12,4 +12,4 @@ EXPOSE 8080
 RUN pip install -U discord.py
 
 # Define the entry point for the container
-CMD ["python", "main.py"]
+CMD ["python", "countbot.py"]
