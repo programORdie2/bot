@@ -22,7 +22,7 @@ async def on_ready():
   print(f'{client.user} has connected to Discord!')
 
 
-next_numbers = json.loads(open('server_count.json').read())
+next_numbers = json.loads(open('server_count.json', encoding='utf-8').read())
 
 
 @client.event
