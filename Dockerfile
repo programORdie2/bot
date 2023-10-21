@@ -9,7 +9,7 @@ COPY . /
 
 EXPOSE 8080
 # Install the application dependencies
-RUN pip install -U discord.py
+RUN pip install -U discord.py py-expression-eval
 
 # Define the entry point for the container
 CMD ["python", "countbot.py"]
